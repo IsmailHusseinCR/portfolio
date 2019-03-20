@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    /* font-family: 'Product Sans'; */
+    font-family: 'Questrial', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+/* .navbar {
+    font-size: 18px;
+    background-image: linear-gradient(260deg, #acb3b9 0%, #000000   100%);
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 10px;
+}
+.main-nav {
+    list-style-type: none;
+}
+.nav-links,
+.logo {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.main-nav li {
+    text-align: center;
+}
+
+
+.navbar-toggle {
+    float: left;
+    cursor: pointer; 
+    color: rgba(255,255,255,0.8);
+    font-size: 24px;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: none;
+}
+.active {
+    display: block;
+  }
+
+  /* MEDIA QUERIES */
+
+
+  /* @media screen and (min-width: 768px) {
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        padding-bottom: 0;
+        height: 70px;
+        align-items: center;
+    }
+    .main-nav {
+        display: flex;
+        margin-right: 30px;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+    .main-nav li {
+        margin: 0;
+    }
+    .nav-links {
+        margin-left: 40px;
+    }
+    .logo {
+        margin-top: 0;
+    }
+   .navbar-toggle {
+       display: none;
+    }
+    .logo:hover,
+    .nav-links:hover {
+        color: rgba(255, 255, 255, 1);
+    }
+}  */
+  
+.nav-ul{
+    display: flex;
+    height: 20vh;
+    /* hier moet flex-direction ofzoiets .*/
+    flex-direction: row;
+}
+
+.nav-ul li {
+    list-style-type: none;
+    flex-basis: 350px;
+    padding: 20px 20px 10px 20px;
+    margin-top: 22px;
+    font-size: 25px;
+}
+.nav-ul li a {
+    text-decoration: none;
+}
+
+ .logo{
+   padding-top: 10px;
+}
+
+
+#showcase{
+    background-image:url("https://images.pexels.com/photos/1111318/pexels-photo-1111318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+/* BIJ DE SECTIONS DECORATIE */
+
+#showcase h1{
+    font-size: 70px;
+    line-height: 1.2;
+    color: rgb(255, 255, 255);
+}
+
+#showcase p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255,255,255);
+}
+
+#showcase .button{
+    text-decoration: none;
+    font-size: 16px;
+    border: #ffeb3b 1px solid;
+    padding: 10px 20px;
+    border-radius: 25px;
+    margin-top: 20px;
+}
+
+#about-me{
+    padding: 20px;
+    display: flex;
+    background-color: #f3e3e3;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#projects{
+    padding: 20px;
+    background-color: #f3e3e3;
+    text-align: center;
+}
+
+.project-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#projects p{
+    display: flex;
+    padding: 50px;
+}
+
+.pasfoto{
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
