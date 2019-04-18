@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    /* font-family: 'Product Sans'; */
+    font-family: 'Questrial', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+  
+.nav-ul{
+    display: flex;
+    height: 20vh;
+    /* hier moet flex-direction ofzoiets .*/
+    flex-direction: row;
+}
+
+.nav-ul li {
+    list-style-type: none;
+    flex-basis: 350px;
+    padding: 20px 20px 10px 20px;
+    margin-top: 22px;
+    font-size: 25px;
+    
+}
+
+.nav-ul li:not(:first-child){
+    display: flex;
+    align-items: center;
+
+}
+
+.nav-ul li a {
+    text-decoration: none;
+    color: #3A3E45;
+    transition: ease-in-out all 0.3s;
+}
+
+.nav-ul li a:hover {
+    color: #b9b9b9;
+}
+
+ .logo{
+   padding-top: 10px;
+   margin-left: 30px;
+}
+
+.logo li:after {
+    content: "";
+    position: absolute;
+    border-bottom: 4px solid #3A3E45;
+    width: 70vw;
+}
+
+
+.pasfoto{
+    margin-bottom: 20px;
+    border-radius: 50%;
+}
+
+#showcase{
+    background-image:url("https://images.pexels.com/photos/1111318/pexels-photo-1111318.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+}
+
+#showcase h1{
+    font-size: 70px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    color: rgb(255, 255, 255);
+}
+
+#showcase p{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(255,255,255);
+}
+
+.chips {
+    margin-top: 40px;
+    display: inline-block;
+
+    flex-direction: column;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #f1f1f1;
+  }
+
+  .project-chip {
+    display: flex;
+    flex-direction: column;
+    color: antiquewhite;
+    padding: 0 25px;
+    height: 50px;
+    font-size: 16px;
+    line-height: 50px;
+    border-radius: 25px;
+    background-color: #000000;
+  }
+
+  .project-chip a {
+      color: antiquewhite;
+      text-decoration: none;
+  }
+
+#about-me{
+    padding: 120px 0px 10px 0px;
+    font-size: 20px;
+    display: flex;
+    background-color: #f3e3e3;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#about-me p{
+letter-spacing: 0.03em;
+}
+
+#about-project{
+    padding: 60px 0px 60px 0px;
+    font-size: 20px;
+    display: flex;
+    background-color: #f3e3e3;
+    text-align: center;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+#about-project p{
+letter-spacing: 0.03em;
+}
+
+
+#projects{
+    padding: 20px 0px 20px 0px;
+    background-color: #f3e3e3;
+    text-align: center;
+}
+
+#projects h2{
+    padding: 50px 0px 20px 0px;
+    background-color: #f3e3e3;
+    text-align: center;
+}
+
+#projects p{
+    display: flex;
+    padding: 50px;
+}
+
+
+.project-items{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.project-description{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.project-description p > a {
+    text-decoration: none;
+    transition: ease-in-out all 0.3s;
+    color: #3A3E45;
+}
+
+.project-description p > a:hover {
+    color: #181717;
+    font-size: 20px;
+}
+
+#contacts{
+    padding: 20px;
+    background-image: url("../img/pexels-photo-908283.jpeg");
+    text-align: center;
+}
+
+#contacts h3{
+    color: #f3e3e3;
+    font-size: 25px;
+}
+
+
+
+.contact-items{
+    padding: 20px 20px 20px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.contact-items a {
+    text-decoration: none;
+    color: white;
+    transition: ease-in-out all 0.3s;
+}
+
+.contact-items a:hover {
+    color: white;
+    font-size: 20px;
+}
+
