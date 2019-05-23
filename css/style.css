@@ -169,7 +169,7 @@ letter-spacing: 0.03em;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    border-radius: 50%;
+   
 }
 
 .project-description{
@@ -188,6 +188,11 @@ letter-spacing: 0.03em;
     color: #181717;
     font-size: 20px;
 }
+
+.proj-circle{
+border-radius: 50%;
+}
+ 
 
 #contacts{
     padding: 20px;
