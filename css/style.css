@@ -190,9 +190,8 @@ letter-spacing: 0.03em;
 }
 
 .proj-circle{
-border-radius: 50%;
+    border-radius: 8%;
 }
- 
 
 #contacts{
     padding: 20px;
